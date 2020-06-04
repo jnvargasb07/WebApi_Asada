@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f7b7b4d102143299c32fe1a1eceb03d" Name="Diagram1">
+        <EntityTypeShape EntityType="asadaModel.Aforo" Width="1.5" PointX="8.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Agua_No_Contabilizada" Width="1.5" PointX="5.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Asada_Quejas" Width="1.5" PointX="1.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Averias" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Cheques" Width="1.5" PointX="10" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Cloracion" Width="1.5" PointX="10.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Compra_Inventario" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Cuentas_Bancarias" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Factura" Width="1.5" PointX="10" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Factura_Cheque" Width="1.5" PointX="12.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Inventario_averia" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Inventario_Stock" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Material" Width="1.5" PointX="7.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Prestamos_Inventario" Width="1.5" PointX="6" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Reciclaje" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Registro_Compra" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Registro_Salidas" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="asadaModel.Salidas_Inventario" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="asadaModel.fk_queja" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_averia" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_cheque" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_cuentaBancaria" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_compra" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_inventario_stock" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_factura" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_inventarioAveria" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_inventario_stockPI" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_inventario_stockSI" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_salida" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_material" ManuallyRouted="false" />
+        <AssociationConnector Association="asadaModel.fk_salidaInventario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
