@@ -254,6 +254,7 @@
     <Compile Include="Models\Salidas_Inventario.cs">
       <DependentUpon>DBAsada.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Validations\AforoValidate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
