@@ -9,6 +9,7 @@
 
 namespace WebApiAsada.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -26,9 +27,11 @@ namespace WebApiAsada.Models
         public Nullable<double> Precio_kilo { get; set; }
         public Nullable<System.DateTime> Fecha { get; set; }
         public Nullable<int> Numero_boleta { get; set; }
-    
+        
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [JsonIgnore]
         public virtual ICollection<Reciclaje> Reciclaje1 { get; set; }
+        [JsonIgnore]
         public virtual Reciclaje Reciclaje2 { get; set; }
     }
 }
